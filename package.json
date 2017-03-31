@@ -1,0 +1,24 @@
+{
+  "name": "hexo-generator-tile",
+  "version": "0.0.1",
+  "description": "Generator windows 10 tile xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zongren/hexo-generator-tile/"
+  },
+  "keywords": [
+    "hexo",
+    "windows",
+    "tile"
+  ],
+  "author": "zongren",
+  "license": "MIT",
+  "dependencies": {
+    "nunjucks": "^2.4.1",
+    "object-assign": "^4.0.1"
+  }
+}
