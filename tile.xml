@@ -1,25 +1,15 @@
 <tile>
   <visual>
     <binding template="TileSmall">
-      <group>
-      <subgroup>
       <image src="/images/small.jpg"/>
       <text hint-wrap="true">{{ post.title }}</text>
-      </subgroup>
-      </group>
     </binding>
     <binding template="TileMedium">
-      <group>
-      <subgroup>
       <image src="/images/medium.jpg"/>
       <text hint-wrap="true">{{ post.title }}</text>
-      </subgroup>
-      </group>
     </binding>
 
     <binding template="TileWide">
-    <group>
-      <subgroup>
       <image src="/images/wide.jpg"/>
       <text hint-style="subtitle" hint-wrap="true">{{ post.title }}</text>
       <text hint-style="captionSubtle" hint-wrap="true">
@@ -31,14 +21,9 @@
       {{ post.content.substring(0, 20) }}
       {% endif %}
       </text>
-      </subgroup>
-      </group>
-      
     </binding>
 
     <binding template="TileLarge">
-     <group>
-      <subgroup>
       <image src="/images/large.jpg"/>
       <text hint-style="subtitle" hint-wrap="true">{{ post.title }}</text>
       <text hint-style="captionSubtle" hint-wrap="true">
@@ -50,8 +35,6 @@
       {{ post.content.substring(0, 20) }}
       {% endif %}
       </text>
-      </subgroup>
-      </group>
     </binding>
 
   </visual>

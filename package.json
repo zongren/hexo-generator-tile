@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-tile",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Generator windows 10 tile xml",
   "main": "index.js",
   "scripts": {
