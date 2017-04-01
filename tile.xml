@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
 <tile>
   <visual>
     <binding template="TileSmall">
-      {{ post.title }}
+      <text hint-wrap="true">{{ post.title }}</text>
     </binding>
     <binding template="TileMedium">
-      {{ post.title }}
+      <text hint-wrap="true">{{ post.title }}</text>
     </binding>
 
     <binding template="TileWide">
-      <text hint-style="subtitle">{{ post.title }}</text>
-      <text hint-style="captionSubtle">
+      <text hint-style="subtitle" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="captionSubtle" hint-wrap="true">
       {% if post.description %}
       {{ post.description }}
       {% elif post.excerpt %}
@@ -22,8 +21,8 @@
     </binding>
 
     <binding template="TileLarge">
-     <text hint-style="subtitle">{{ post.title }}</text>
-      <text hint-style="captionSubtle">
+     <text hint-style="subtitle" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="captionSubtle" hint-wrap="true">
       {% if post.description %}
       {{ post.description }}
       {% elif post.excerpt %}
