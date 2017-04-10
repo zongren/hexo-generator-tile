@@ -1,25 +1,21 @@
 <tile>
   <visual>
     <binding template="TileSmall">
-      <image placement="Peek" src="images/small.jpg"/>
-      <text hint-style="title" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="caption" hint-wrap="true">{{ post.title }}</text>
     </binding>
 
     <binding template="TileMedium">
-      <image placement="Peek" src="images/medium.jpg"/>
-      <text hint-style="title" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="caption" hint-wrap="true">{{ post.title }}</text>
     </binding>
 
     <binding template="TileWide">
-      <image placement="Peek" src="images/wide.jpg"/>
-      <text hint-style="title" hint-wrap="true">{{ post.title }}</text>
-      <text hint-style="subtitle" hint-wrap="true">{% if post.description %}{{ post.description }}{% elif post.excerpt %}{{ post.excerpt }}{% elif post.content %}{{ post.content.substring(0, 40) }}{% endif %}</text>
+      <text hint-style="caption" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="captionSubtle" hint-wrap="true">{% if post.description %}{{ post.description }}{% elif post.excerpt %}{{ post.excerpt }}{% elif post.content %}{{ post.content.substring(0, 240) }}{% endif %}</text>
     </binding>
 
     <binding template="TileLarge">
-      <image placement="Peek" src="images/large.jpg"/>
-      <text hint-style="title" hint-wrap="true">{{ post.title }}</text>
-      <text hint-style="subtitle" hint-wrap="true">{% if post.description %}{{ post.description }}{% elif post.excerpt %}{{ post.excerpt }}{% elif post.content %}{{ post.content.substring(0, 40) }}{% endif %}</text>
+      <text hint-style="caption" hint-wrap="true">{{ post.title }}</text>
+      <text hint-style="captionSubtle" hint-wrap="true">{% if post.description %}{{ post.description }}{% elif post.excerpt %}{{ post.excerpt }}{% elif post.content %}{{ post.content.substring(0, 480) }}{% endif %}</text>
     </binding>
 
   </visual>

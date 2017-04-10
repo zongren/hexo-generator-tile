@@ -1,7 +1,7 @@
 {
   "name": "hexo-generator-tile",
-  "version": "0.0.15",
-  "description": "Generator windows 10 tile xml",
+  "version": "0.0.18",
+  "description": "Generate windows 10 tile xml for hexo blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
